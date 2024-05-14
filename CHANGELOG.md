@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/googleapis/java-pubsub-group-kafka-connector/compare/v1.2.0...v1.2.1) (2024-05-14)
+
+
+### Dependencies
+
+* Update dependency org.apache.commons:commons-lang3 to v3.14.0 ([#302](https://github.com/googleapis/java-pubsub-group-kafka-connector/issues/302)) ([d5cad34](https://github.com/googleapis/java-pubsub-group-kafka-connector/commit/d5cad346dfd68c5c86186bbc44a5acf2174760cb))
+
 ## [1.2.0](https://github.com/googleapis/java-pubsub-group-kafka-connector/compare/v1.1.0...v1.2.0) (2023-05-10)
 
 

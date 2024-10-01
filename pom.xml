@@ -55,13 +55,13 @@
       <groupId>com.google.api.grpc</groupId>
       <artifactId>proto-google-cloud-pubsublite-v1</artifactId>
       <!--TODO(dpcollins-google): remove explicit version !-->
-      <version>1.11.1</version>
+      <version>1.14.3</version>
     </dependency>
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-pubsublite</artifactId>
       <!--TODO(dpcollins-google): remove explicit version !-->
-      <version>1.11.1</version>
+      <version>1.14.3</version>
     </dependency>
     <dependency>
       <groupId>com.google.cloud</groupId>
@@ -272,10 +272,8 @@
                 </excludes>
               </artifactSet>
               <transformers>
-                <transformer
-                    implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
-                <transformer
-                    implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer"/>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer"/>
               </transformers>
             </configuration>
           </execution>
